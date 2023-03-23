@@ -1,4 +1,4 @@
-import "./styles/App.css";
+import "./styles.css";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
@@ -34,16 +34,19 @@ function AddingFlights() {
 
   return (
     <div className="search-bg">
-      <h2>Flights</h2>
+      <h1>Flights</h1>
       <div
         className="flight-search-container"
         style={{
           position: "relative",
-          border: "1px solid black",
-          borderRadius: "16px",
+          border: "1px solid rgba(81, 203, 238, 1)",
+          borderRadius: "12px",
           padding: "8px",
           // backgroundColor: "rgb(135,206,235)"
-          backgroundColor: "rgb(246, 241, 224)"
+          // backgroundColor: "rgb(246, 241, 224)"
+          // backgroundColor: "#a3395c"
+          // backgroundColor: "whitesmoke",
+          color: "red"
         }}
       >
         <form>
@@ -90,7 +93,7 @@ function AddingFlights() {
           <button
             onClick={handleSearch}
             className="flight-search-submit"
-            style={{ position: "absolute", bottom: "-15px" }}
+            style={{ position: "absolute", bottom: "-20px" }}
             type="button"
           >
             Search
@@ -98,7 +101,7 @@ function AddingFlights() {
         </form>
       </div>
       <div>
-        <h2>Available Tickets</h2>
+        <h1>Available Tickets</h1>
         {tickets.map((ticket) => (
           <div className="container">
             <div className="c1">
