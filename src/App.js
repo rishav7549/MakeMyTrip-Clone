@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./styles/App.css";
 import AddingFlights from "./FlightsBook";
 import AddingHotels from "./HotelsBook";
 import AddingTrains from "./TrainsBook";
