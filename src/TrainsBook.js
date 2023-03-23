@@ -1,4 +1,4 @@
-import "./styles/App.css";
+import "./styles.css";
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
@@ -34,15 +34,17 @@ function AddingTrains() {
   return (
     <div className="search-bg">
       <div>
-        <h2>Trains</h2>
+        <h1>Trains</h1>
         <div
           className="flight-search-container"
           style={{
             position: "relative",
-            border: "1px solid black",
-            borderRadius: "16px",
+            border: "1px solid rgba(81, 203, 238, 1)",
+            borderRadius: "12px",
             padding: "8px",
-            backgroundColor: "#87CEEB"
+            // backgroundColor: "#87CEEB"
+            // backgroundColor: "rgb(246, 241, 224)"
+            color: "red"
           }}
         >
           <form>
