@@ -1,4 +1,4 @@
-import "./styles/App.css";
+import "./styles.css";
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -31,7 +31,8 @@ function Login() {
             <div>
               <img
                 style={{ width: "100px", height: "100px" }}
-                src="https://cdn-icons-png.flaticon.com/128/7856/7856126.png"
+                // src="https://cdn-icons-png.flaticon.com/128/7856/7856126.png"
+                src="https://cdn-icons-png.flaticon.com/512/8109/8109306.png"
                 alt="login-logo"
               />
             </div>
