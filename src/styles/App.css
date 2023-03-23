@@ -1,8 +1,10 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-  /* background-color: grey; */
+  background-color: rgba(241, 237, 237, 0.21);
+  /* background-color: #4a4a4a; */
   /* background-color: blanchedalmond; */
+  /* background-image: url("https://images.pexels.com/photos/175656/pexels-photo-175656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
   /* background-image: url("https://images.pexels.com/photos/175656/pexels-photo-175656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
   background-attachment: fixed;
   background-size: 100%;
@@ -20,12 +22,16 @@
   justify-content: space-around;
   /* margin-left: 250px;
   margin-right: 250px; */
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   padding: 5px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  border: 1px solid rgba(81, 203, 238, 1);
   border-radius: 12px;
-  /* background-color: rgba(237, 231, 241, 0.7); */
-  background-color: rgb(246, 241, 224);
+  /* background-color: #a3395c; */
+  color: red;
+  box-shadow: 10px 10px grey;
+  /* background-color: rgb(246, 241, 224); */
+  /* box-shadow: 10px 10px grey; */
 }
 
 @media only screen and (max-width: 600px) {
@@ -53,7 +59,10 @@
 .navbar {
   display: flex;
   flex-direction: column;
-  background-color: midnightblue;
+  /* background-color: midnightblue; */
+  /* background-color: #31323b; */
+  background-color: #e80e69;
+  /* background-color: #7d022b; */
   padding: 10px;
   border-radius: 3px;
 }
@@ -136,11 +145,13 @@ a {
 
 .book {
   border: 1px solid rgb(22, 177, 22);
-  background-color: rgb(22, 177, 22);
+  /* background-color: rgb(22, 177, 22); */
+  background-color: #c40c49;
   color: white;
   padding: 10px 20px;
   border-radius: 100px;
   cursor: pointer;
+  /* box-shadow: 10px 5px 5px red; */
 }
 
 .linkButton {
@@ -153,6 +164,7 @@ a {
   /* width: 350px; */
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 10px 10px grey;
 }
 
 .flight-search {
@@ -175,8 +187,8 @@ a {
 .flight-search-submit {
   padding: 7px;
   border-radius: 16px;
-  color: maroon;
-  background-color: burlywood;
+  color: red;
+  background-color: whitesmoke;
   cursor: pointer;
 }
 
