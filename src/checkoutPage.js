@@ -20,7 +20,7 @@ const CheckoutPage = () => {
     const loggedInUser = localStorage.getItem("username");
     if (loggedInUser) {
       setLoggedIn(true);
-      setUserData(JSON.parse(loggedInUser));
+      // setUserData(JSON.parse(loggedInUser));
       setUsername(loggedInUser);
     } else {
       navigate("/login");
