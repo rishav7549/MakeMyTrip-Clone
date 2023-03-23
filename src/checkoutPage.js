@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { createBrowserHistory } from "history";
 import { useLocation, useNavigate } from "react-router-dom";
-import "./styles.css";
+import "./styles/App.css";
 import PaymentForm from "./CardDetails";
 
 const CheckoutPage = () => {
