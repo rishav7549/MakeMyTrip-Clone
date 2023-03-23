@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./styles/App.css";
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
