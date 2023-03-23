@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { createBrowserHistory } from "history";
 import { useLocation, useNavigate } from "react-router-dom";
-import "./styles/App.css";
+import "./styles.css";
 import PaymentForm from "./CardDetails";
 
 const CheckoutPage = () => {
@@ -20,7 +20,7 @@ const CheckoutPage = () => {
     const loggedInUser = localStorage.getItem("username");
     if (loggedInUser) {
       setLoggedIn(true);
-      // setUserData(JSON.parse(loggedInUser));
+      setUserData(JSON.parse(loggedInUser));
       setUsername(loggedInUser);
     } else {
       navigate("/login");
