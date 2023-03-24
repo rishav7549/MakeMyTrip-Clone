@@ -32,6 +32,7 @@
   box-shadow: 10px 10px grey;
   /* background-color: rgb(246, 241, 224); */
   /* box-shadow: 10px 10px grey; */
+  /* background-image: url("https://images.pexels.com/photos/175656/pexels-photo-175656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
 }
 
 @media only screen and (max-width: 600px) {
@@ -224,6 +225,8 @@ input {
 }
 
 .card-input {
+  width: 60%;
+  height: 5vh;
   margin-bottom: 2px;
   border: none;
 }
@@ -247,16 +250,18 @@ input {
 }
 
 .fare-summary {
+  width: 80vh;
   border: 1px solid black;
   padding: 20px;
-  border-radius: 16px;
+  border-radius: 10px;
   background-color: rgba(237, 231, 241, 0.7);
 }
 
 .payment-section {
+  width: 80vh;
   border: 1px solid black;
   padding: 20px;
-  border-radius: 16px;
+  border-radius: 10px;
   background-color: rgba(237, 231, 241, 0.7);
 }
 
